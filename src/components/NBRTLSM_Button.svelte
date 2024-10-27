@@ -14,12 +14,13 @@
 		{...rest}
 		class="group text-nowrap rounded-md border-2 border-black
          bg-fuel-yellow p-4 py-2 text-black transition-all
+		 hover:translate-x-1
 		 
-		 hover:translate-x-1 hover:translate-y-1
+		 hover:translate-y-1 disabled:cursor-not-allowed
 		 
-		 disabled:cursor-not-allowed disabled:bg-gray-400 disabled:text-gray-800
+		 disabled:bg-gray-400 disabled:text-gray-800 disabled:hover:bottom-1
 		 
-		 disabled:hover:bottom-1 disabled:hover:right-1"
+		 disabled:hover:right-1 dark:bg-spring-green-800"
 	>
 		<div class="flex items-center justify-between gap-2">
 			{title}
